@@ -1,15 +1,2 @@
-﻿using System;
-
-class Program
-{
-    static void Main()
-    {
-        Console.Write("Enter a number: ");
-        string input = Console.ReadLine();          
-        int number = int.Parse(input);             
-
-        int square = number * number;
-        Console.WriteLine("Square of " + number + " is " + square);
-    }
-}
-
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
